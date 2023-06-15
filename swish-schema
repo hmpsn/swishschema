@@ -1,0 +1,389 @@
+<script>
+{
+	"@context": "https://www.schema.org/",
+	"@type": "Dentist",
+	"name": "Swish Dental - Downtown",
+	"url": "https://www.swishsmiles.com/",
+	"@id": "https://www.swishsmiles.com/#Dentist",
+	"image": "https://uploads-ssl.webflow.com/6178312e621dc2b507e9c3e8/61a51dd954d4307474089b8b_Downtown-Slider-Image%20(1).jpg",
+	"telephone": "512-647-6045",
+	"openingHoursSpecification": [{
+		"@type": "OpeningHoursSpecification",
+		"dayOfWeek": "Monday",
+		"opens": "09:00",
+		"closes": "18:00"
+	}, {
+		"@type": "OpeningHoursSpecification",
+		"dayOfWeek": [
+			"Tuesday",
+			"Wednesday",
+			"Thursday",
+			"Friday"
+		],
+		"opens": "08:00",
+		"closes": "17:30"
+	}],
+	"priceRange": "$$",
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "201 W 5th St Ste 175",
+		"addressLocality": "Austin",
+		"addressRegion": "TX",
+		"postalCode": "78701",
+		"addressCountry": "US"
+	},
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": 30.2674035,
+		"longitude": -97.7451433
+	},
+	"department": [{
+			"@type": "Dentist",
+			"name": "Swish Dental - Boulder Lane",
+			"image": "https://uploads-ssl.webflow.com/6178312e621dc29857e9c3e5/617b3d83404764488bc607d9_61784b723d9bf3057b473b75_custom_resized_b0eaaf8d-9d37-4891-bc11-eb3efa8f63ec.jpeg",
+			"@id": "https://www.swishsmiles.com/location/boulder-lane-nw-austin-swish-dental/#Dentist",
+			"url": "http://www.swishsmiles.com/location/boulder-lane-nw-austin-swish-dental",
+			"telephone": "+15123627130",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "10200 Boulder Ln, Suite 300",
+				"addressLocality": "Austin",
+				"addressRegion": "TX",
+				"postalCode": "78726",
+				"addressCountry": "US"
+			},
+			"openingHoursSpecification": {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": ["Wednesday", "Friday", "Thursday", "Tuesday"],
+				"opens": "08:00",
+				"closes": "17:30"
+			}
+		},
+		{
+			"@type": "Dentist",
+			"name": "Swish Dental - Brodie",
+			"image": "https://uploads-ssl.webflow.com/6178312e621dc29857e9c3e5/617b3d8651a19a5c4d44d996_61784b723d9bf36f79473b73_custom_resized_f2528564-477d-4c9f-83cd-c3abc6750a80.jpeg",
+			"@id": "https://www.swishsmiles.com/location/brodie-lane-south-austin-swish-dental/#Dentist",
+			"url": "http://www.swishsmiles.com/location/brodie-lane-south-austin-swish-dental",
+			"telephone": "+15123439000",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "8916 Brodie Ln Suite 400",
+				"addressLocality": "Austin",
+				"addressRegion": "TX",
+				"postalCode": "78748",
+				"addressCountry": "US"
+			},
+			"openingHoursSpecification": [{
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": ["Wednesday", "Friday", "Thursday"],
+				"opens": "08:00",
+				"closes": "17:30"
+			}, {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": ["Monday", "Tuesday"],
+				"opens": "09:00",
+				"closes": "18:00"
+			}]
+		},
+		{
+			"@type": "Dentist",
+			"name": "Swish Dental - Brodie",
+			"image": "https://uploads-ssl.webflow.com/6178312e621dc29857e9c3e5/617b3d8651a19a5c4d44d996_61784b723d9bf36f79473b73_custom_resized_f2528564-477d-4c9f-83cd-c3abc6750a80.jpeg",
+			"@id": "https://www.swishsmiles.com/location/brodie-lane-south-austin-swish-dental/#Dentist",
+			"url": "http://www.swishsmiles.com/location/brodie-lane-south-austin-swish-dental",
+			"telephone": "+15123439000",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "8916 Brodie Ln Suite 400",
+				"addressLocality": "Austin",
+				"addressRegion": "TX",
+				"postalCode": "78748",
+				"addressCountry": "US"
+			},
+			"openingHoursSpecification": [{
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": ["Wednesday", "Friday", "Thursday"],
+				"opens": "08:00",
+				"closes": "17:30"
+			}, {
+				"@type": "OpeningHoursSpecification",
+				"dayOfWeek": ["Monday", "Tuesday"],
+				"opens": "09:00",
+				"closes": "18:00"
+			}]
+		},
+        {
+            "@type": "Dentist",
+            "name": "Swish Dental - Bull Creek",
+            "image": "https://uploads-ssl.webflow.com/6178312e621dc29857e9c3e5/617b3d87a24d0154fc56cf63_61784b723d9bf351bc473b76_custom_resized_577cb68e-3aa4-4c2a-82bf-d3c7641dde9d.jpeg",
+            "@id": "https://www.swishsmiles.com/location/bullcreek-nw-austin-swish-dental/#Dentist",
+            "url": "http://www.swishsmiles.com/location/bullcreek-nw-austin-swish-dental",
+            "telephone": "+15123439000",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "7300 Ranch Rd 2222, Suite 216",
+                "addressLocality": "Austin",
+                "addressRegion": "TX",
+                "postalCode": "78730",
+                "addressCountry": "US"
+            },
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Wednesday", "Friday", "Thursday", "Tuesday"],
+                "opens": "08:00",
+                "closes": "17:30"
+            }
+        },
+        {
+            "@type": "Dentist",
+            "name": "Swish Dental - Cedar Park",
+            "image": "https://uploads-ssl.webflow.com/6178312e621dc29857e9c3e5/617b3d8e404764eba0c607dd_61784b723d9bf3987c473b9c_unnamed.jpeg",
+            "@id": "https://www.swishsmiles.com/location/cedar-park/#Dentist",
+            "url": "http://www.swishsmiles.com/location/cedar-park",
+            "telephone": "+15128663184",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "12160 W Parmer Ln. Suite 110",
+                "addressLocality": "Austin",
+                "addressRegion": "TX",
+                "postalCode": "78613",
+                "addressCountry": "US"
+            },
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Monday",
+                "opens": "09:00",
+                "closes": "18:00"
+            }, {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Wednesday", "Friday", "Thursday", "Tuesday"],
+                "opens": "08:00",
+                "closes": "17:30"
+            }]
+        },
+        {
+            "@type": "Dentist",
+            "name": "Swish Dental - Domain",
+            "image": "https://uploads-ssl.webflow.com/6178312e621dc29857e9c3e5/617b3d8f51a19af76244d9b0_61784b723d9bf30f8b473b77_custom_resized_6aecc846-7e87-46e6-a8a4-336728570407.jpeg",
+            "@id": "https://www.swishsmiles.com/location/domain-north-austin-dentist/#Dentist",
+            "url": "http://www.swishsmiles.com/location/domain-north-austin-dentist",
+            "telephone": "+15126170110",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "3310 W Braker Ln Bldg 1-100",
+                "addressLocality": "Austin",
+                "addressRegion": "TX",
+                "postalCode": "78758",
+                "addressCountry": "US"
+            },
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Monday",
+                "opens": "09:00",
+                "closes": "18:00"
+            }, {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Wednesday", "Friday", "Thursday", "Tuesday"],
+                "opens": "08:00",
+                "closes": "17:30"
+            }]
+        },
+        {
+            "@context": "https://schema.org",
+            "@type": "Dentist",
+            "name": "Swish Dental - East",
+            "image": "https://uploads-ssl.webflow.com/6178312e621dc29857e9c3e5/61bcee6c1fbb39061a423cf2_Swish-East-Image.jpg",
+            "@id": "https://www.swishsmiles.com/location/east-austin-swish-dental/#Dentist",
+            "url": "http://www.swishsmiles.com/location/east-austin-swish-dental",
+            "telephone": "+15129618817",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1800 E 4th St. Unit 136",
+                "addressLocality": "Austin",
+                "addressRegion": "TX",
+                "postalCode": "78702",
+                "addressCountry": "US"
+            },
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            }, {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Wednesday", "Friday", "Thursday"],
+                "opens": "08:00",
+                "closes": "17:30"
+            }]
+        },
+        {
+            "@type": "Dentist",
+            "name": "Swish Dental - Mueller Alamo",
+            "image": "https://uploads-ssl.webflow.com/6178312e621dc29857e9c3e5/617b3d91d29ab368a7e32423_61784b723d9bf34fcf473b7a_custom_resized_ac24fbd1-6718-4b02-b163-8398b80b4811.jpeg",
+            "@id": "https://www.swishsmiles.com/location/mueller-alamo/#Dentist",
+            "url": "http://www.swishsmiles.com/location/mueller-alamo",
+            "telephone": "+15128437422",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "1911 Aldrich St. Suite 135",
+                "addressLocality": "Austin",
+                "addressRegion": "TX",
+                "postalCode": "78723",
+                "addressCountry": "US"
+            },
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            }, {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Wednesday", "Friday", "Thursday"],
+                "opens": "08:00",
+                "closes": "17:30"
+            }]
+        },
+        {
+            "@type": "Dentist",
+            "name": "Swish Dental - Mueller Family",
+            "image": "https://uploads-ssl.webflow.com/6178312e621dc29857e9c3e5/61a7bcf183ae5732e508869f_Mueller%20Family%20(1).jpg",
+            "@id": "https://www.swishsmiles.com/location/mueller-family-central-austin-dental/#Dentist",
+            "url": "http://www.swishsmiles.com/location/mueller-family-central-austin-dental",
+            "telephone": "+15128270057",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "2604 Aldrich Street, Suite A",
+                "addressLocality": "Austin",
+                "addressRegion": "TX",
+                "postalCode": "78723",
+                "addressCountry": "US"
+            },
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            }, {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Wednesday", "Friday", "Thursday"],
+                "opens": "08:00",
+                "closes": "17:30"
+            }]
+        },
+        {
+            "@type": "Dentist",
+            "name": "Swish Dental - Pflugerville",
+            "image": "https://uploads-ssl.webflow.com/6178312e621dc29857e9c3e5/617b3d959ed5e1d8fe296035_61784b723d9bf3dcb0473b7f_custom_resized_a11f179f-c146-41f3-9c56-8c33d5f88a01.jpeg",
+            "@id": "https://www.swishsmiles.com/location/pflugerville/#Dentist",
+            "url": "http://www.swishsmiles.com/location/pflugerville",
+            "telephone": "+15128270057",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "18817 N Heatherwilde Blvd Bldg 1-100",
+                "addressLocality": "Pflugerville",
+                "addressRegion": "TX",
+                "postalCode": "78660",
+                "addressCountry": "US"
+            },
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Monday",
+                "opens": "09:00",
+                "closes": "18:00"
+            }, {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Wednesday", "Friday", "Thursday", "Tuesday"],
+                "opens": "08:00",
+                "closes": "17:30"
+            }]
+        },
+        {
+            "@type": "Dentist",
+            "name": "Swish Dental - South 1st",
+            "image": "https://uploads-ssl.webflow.com/6178312e621dc29857e9c3e5/617b3d96af534341c9c3fc1a_61784b723d9bf3fa4e473b72_custom_resized_c38d51ac-4fee-40b4-abc0-e3ebf8976ac3.jpeg",
+            "@id": "https://www.swishsmiles.com/location/south-1st-downtown-austin-swish-dental/#Dentist",
+            "url": "http://www.swishsmiles.com/location/south-1st-downtown-austin-swish-dental",
+            "telephone": "+15122962841",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "3715 S 1st St Suite B",
+                "addressLocality": "Austin",
+                "addressRegion": "TX",
+                "postalCode": "78704",
+                "addressCountry": "US"
+            },
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            }, {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Wednesday", "Friday", "Thursday"],
+                "opens": "08:00",
+                "closes": "17:30"
+            }]
+        },
+        {
+            "@type": "Dentist",
+            "name": "Swish Dental - North Cedar Park Specialty",
+            "image": "https://uploads-ssl.webflow.com/6178312e621dc29857e9c3e5/61a7c20914e68ae17c3e799e_North%20Cedar%20Park%20(Specialty)%20(1).jpg",
+            "@id": "https://www.swishsmiles.com/location/north-cedar-park-specialty/#Dentist",
+            "url": "http://www.swishsmiles.com/location/north-cedar-park-specialty",
+            "telephone": "+17372390222",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "5001 183 A Toll Rd, Unit R300",
+                "addressLocality": "Cedar Park",
+                "addressRegion": "TX",
+                "postalCode": "78613",
+                "addressCountry": "US"
+            },
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Monday",
+                "opens": "09:00",
+                "closes": "18:00"
+            }, {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Wednesday", "Tuesday", "Friday"],
+                "opens": "08:00",
+                "closes": "17:30"
+            }, {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Thursday",
+                "opens": "08:00",
+                "closes": "17:00"
+            }]
+        },
+        {
+            "@type": "Dentist",
+            "name": "Swish Dental - Bee Cave",
+            "image": "https://uploads-ssl.webflow.com/6178312e621dc29857e9c3e5/61a7c1a5af834d7c95002ed3_Downtown%20(1).jpg",
+            "@id": "https://www.swishsmiles.com/location/bee-cave/#Dentist",
+            "url": "https://www.swishsmiles.com/location/bee-cave",
+            "telephone": "+15126533372",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "3944 S FM 620 Bldg 3, Suite 140",
+                "addressLocality": "Bee Cave",
+                "addressRegion": "TX",
+                "postalCode": "78738",
+                "addressCountry": "US"
+            },
+            "openingHoursSpecification": [{
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            }, {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Wednesday", "Thursday"],
+                "opens": "08:00",
+                "closes": "17:30"
+            }]
+        }
+	]
+}
+</script>
